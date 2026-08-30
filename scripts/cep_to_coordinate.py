@@ -1,5 +1,6 @@
 import psycopg
 import requests
+import time
 
 def geocode():
     url = "http://127.0.0.1:8088/search"
@@ -21,6 +22,7 @@ def geocode():
     """)
 
     for row in cursor:
+        time.sleep(1)
         cep = row[0]
 
         parameters = { "postalcode": cep, "country": "Brazil", "format": "jsonv2", "limit": 1 }
