@@ -8,8 +8,8 @@ def main():
         print("-----------------")
         print("  CEP-GEOFINDER ")
         print("------------------")
-        latitude = input("Enter Latitude: ")
-        longitude = input("Enter Longitude: ")
+        latitude = float(input("Enter Latitude: "))
+        longitude = float(input("Enter Longitude: "))
         radius = float(input("Enter Radius: "))
         result = consulta(latitude, longitude, radius)
         count = 0
