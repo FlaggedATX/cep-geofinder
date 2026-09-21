@@ -372,4 +372,4 @@ Relevant sources include:
 
 Users are responsible for complying with the licenses, attribution requirements, usage policies, and rate limits applicable to each external source or service.
 
----
+---.
